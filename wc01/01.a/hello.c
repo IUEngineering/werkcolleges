@@ -7,6 +7,6 @@
 
 int main(int nArgc, char* aArgv[]) {
 
-  printf("Hello C world on the RPi!\n");
+  printf("Hello C world on the RPi!\n, fuck this shit I'm out");
   return 0;
 };

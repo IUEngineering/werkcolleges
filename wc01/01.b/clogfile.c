@@ -30,6 +30,6 @@ int main(int nArgc, char* aArgv[]) {
 
   // Afsluiten
   logfile_close(pFile);
-  printf("\nAfgesloten :-)\n\n");
+  printf("\nAfgesloten :D\n\n");
   return 0;
 };
