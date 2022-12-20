@@ -15,6 +15,8 @@ class Led {
         void on(void);
         void off(void);
         void switchStatus();
+        void teston(void);
+        void testoff(void);
      private:
         uint8_t chosenGPIO;
 };

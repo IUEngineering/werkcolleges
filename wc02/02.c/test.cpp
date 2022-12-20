@@ -20,7 +20,8 @@ int main(void){
 				printf("the button is on\n");
 			};
 	}
-	
+
+bcm2835_close();
 return 0;
 }
 
