@@ -4,6 +4,9 @@
 // Led constructor, nGPIO is the gpio pin of the LED.
 Led::Led(uint8_t nGPIO){
     chosenGPIO = nGPIO;
+
+    // Set the PIN to be output
+    bcm2835_gpio_fsel(chosenGPIO, BCM2835_GPIO_FSEL_OUTP);
 };
 
 // Led destructor.
@@ -32,3 +35,5 @@ void Led::switchStatus(){
             break;
     };
 };
+
+void Led:
