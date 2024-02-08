@@ -5,8 +5,8 @@
 
 #include <stdio.h>
 #include <stdint.h>
-#include <cstring>
 #include "parser.hpp"
+#include <cstring>
 
 #define MAX_INVOER 100
 
