@@ -34,11 +34,13 @@ mijntaal.txt
 <mijntaal>  ::= <commandos>
 <commandos> ::= <commando> | <commando> <nl> <commandos>
 <commando>  ::= <led> | <knop> | <label>
-<led>       ::= "led" <ws> <naam> <ws> <status> <ws>
-<knop>      ::= 
-<label>     ::= 
+<led>       ::= "led" <ws> <naam> <ws> <status> <ws> 
+<knop>      ::= "knop" <ws> <naam> <ws> <status> <ws> <nl>
+<label>     ::= "label" <ws> <naam> <nl>
 <naam>      ::= <sym> | <sym> <sym>
 <sym>       ::= "a" | "b" | ... | "z" | "0" | "1" | ... | "9" | "-" | "_"
 <status>    ::= "on" | "off"
 <nl>        ::= "" | '000A' <nl> | '000D' <nl>
 <ws>        ::= "" | '0020' <ws> | '0009' <ws>
+
+
